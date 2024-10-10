@@ -229,6 +229,8 @@ warp            < 2                 : yabai -m window --display 2; yabai -m disp
 warp            < 3                 : yabai -m window --display 3; yabai -m display --focus 3
 warp            < tab               : yabai -m window --display next; yabai -m display --focus next
 warp            < shift - tab       : yabai -m window --display prev; yabai -m display --focus prev
+warp		< shift - h 	    : yabai -m window --display west; yabai -m display --focus west
+warp		< shift - l 	    : yabai -m window --display east; yabai -m display --focus east
 
 # Prefix with cmd to warp window to desktop and follow.
 warp            < cmd - 1           : yabai -m window --space 1;    yabai -m space --focus 1; yabai -m config active_window_border_color 0xff98c379
@@ -243,6 +245,8 @@ warpnf          < 2                 : yabai -m window --display 2
 warpnf          < 3                 : yabai -m window --display 3
 warpnf          < tab               : yabai -m window --display next
 warpnf          < shift - tab       : yabai -m window --display prev
+warpnf		< shift - h 	    : yabai -m window --display west
+warpnf		< shift - l 	    : yabai -m window --display east
 
 # Prefix with cmd to warp windown to monitor, but do NOT follow.
 warpnf          < cmd - 1           : yabai -m window --space 1
