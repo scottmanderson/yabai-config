@@ -23,8 +23,8 @@
 #
 # GLOBAL KEYBINDINGS:
 #                    ctrl - space    Enter FOCUS mode
-#                   ctrl - return    Open a Terminal
-#                    cmd - return    Open a floating Terminal
+#                   ctrl - return    Open a Terminal (removed)
+#                    cmd - return    Open a floating Terminal (removed)
 #
 #
 # KEYBINDINGS AVAILABLE IN ALL MODES:
@@ -124,7 +124,7 @@ focus, grid, swap, warp, warpnf, resize < i                 : yabai -m window --
 focus, grid, swap, warp, warpnf, resize < t                 : yabai -m window --toggle float             # mnemonic: floa_t_
 
 # Global hotkeys which I limit so as to not pollute the global namespace 
-default         < ctrl - return     : open -na Terminal; yabai -m space --balance
+#default         < ctrl - return     : open -na Terminal; yabai -m space --balance
 default         < cmd - return      : open -na Terminal;
 
 # Change focus using standard vi directional keys. Enter changes focus to the
